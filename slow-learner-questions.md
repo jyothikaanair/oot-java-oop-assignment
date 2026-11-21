@@ -59,28 +59,30 @@ Color: Yellow
 ```
 
 
-### 3. Create a `Rectangle` class with length and width, then display its area.
+### 3. Create a `Book` class with a constructor that sets its title, then display the title.
 
 ```java
 public class Main {
     public static void main(String[] args) {
-        Rectangle rectangle = new Rectangle();
-        rectangle.displayArea();
+        Book book = new Book("The Jungle Book");
+        book.displayTitle();
     }
 }
 
-class Rectangle {
-    int length = 5;
-    int width = 3;
+class Book {
+    String title;
 
-    void displayArea() {
-        int area = length * width;
-        System.out.println("Area: " + area);
+    Book(String bookTitle) {
+        title = bookTitle;
+    }
+
+    void displayTitle() {
+        System.out.println("Title: " + title);
     }
 }
 ```
 
 **Output:**
 ```text
-Area: 15
+Title: The Jungle Book
 ```
