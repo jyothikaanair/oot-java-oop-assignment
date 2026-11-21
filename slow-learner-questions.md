@@ -21,3 +21,10 @@ class Student {
         System.out.println("Age: " + age);
     }
 }
+
+
+**Output:**
+```text
+Name: Anu
+Age: 18
+```
