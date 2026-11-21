@@ -30,3 +30,31 @@ Name: Manu
 Age: 20
 ```
 
+
+### 2. Create a `Fruit` class with a name and color, then display them.
+
+```java
+public class Main {
+    public static void main(String[] args) {
+        Fruit fruit = new Fruit();
+        fruit.displayDetails();
+    }
+}
+
+class Fruit {
+    String name = "Mango";
+    String color = "Yellow";
+
+    void displayDetails() {
+        System.out.println("Fruit: " + name);
+        System.out.println("Color: " + color);
+    }
+}
+```
+
+**Output:**
+```text
+Fruit: Mango
+Color: Yellow
+```
+
