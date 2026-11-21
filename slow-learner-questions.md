@@ -25,6 +25,6 @@ class Student {
 
 **Output:**
 ```text
-Name: Anu
-Age: 18
+Name: Manu
+Age: 20
 ```
