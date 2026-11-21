@@ -13,8 +13,8 @@ public class Main {
 }
 
 class Student {
-    String name = "Anu";
-    int age = 18;
+    String name = "Manu";
+    int age = 20;
 
     void displayDetails() {
         System.out.println("Name: " + name);
