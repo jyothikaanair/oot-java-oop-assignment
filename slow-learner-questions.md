@@ -58,3 +58,29 @@ Fruit: Mango
 Color: Yellow
 ```
 
+
+### 3. Create a `Rectangle` class with length and width, then display its area.
+
+```java
+public class Main {
+    public static void main(String[] args) {
+        Rectangle rectangle = new Rectangle();
+        rectangle.displayArea();
+    }
+}
+
+class Rectangle {
+    int length = 5;
+    int width = 3;
+
+    void displayArea() {
+        int area = length * width;
+        System.out.println("Area: " + area);
+    }
+}
+```
+
+**Output:**
+```text
+Area: 15
+```
