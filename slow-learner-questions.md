@@ -23,8 +23,10 @@ class Student {
 }
 
 
+```
 **Output:**
 ```text
 Name: Manu
 Age: 20
 ```
+
