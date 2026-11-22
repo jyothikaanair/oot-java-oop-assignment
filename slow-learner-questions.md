@@ -145,3 +145,26 @@ class Calculator {
 Sum of two numbers: 8
 Sum of three numbers: 10
 ```
+
+
+# Slow Learner Non-Programming Questions
+
+### 1. What is object-oriented programming (OOP)?
+
+**Answer:** OOP is a way of writing programs by organizing them around classes and objects.
+
+### 2. What is the difference between a class and an object?
+
+**Answer:** A class is a blueprint that describes data and actions. An object is an instance created from that class.
+
+### 3. What is a constructor in Java?
+
+**Answer:** A constructor is a special part of a class that runs when an object is created. It is used to give the object its starting values.
+
+### 4. What is inheritance?
+
+**Answer:** Inheritance lets one class receive fields and methods from another class. The class that receives them is called the child class.
+
+### 5. What is method overloading?
+
+**Answer:** Method overloading means having multiple methods with the same name in one class, but with different parameter lists.
