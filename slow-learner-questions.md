@@ -86,3 +86,62 @@ class Book {
 ```text
 Title: The Jungle Book
 ```
+
+### 4. Create an `Animal` class with an `eat()` method. Create a `Dog` class that inherits from `Animal` and has a `bark()` method. Display both messages.
+
+```java
+public class Main {
+    public static void main(String[] args) {
+        Dog dog = new Dog();
+        dog.eat();
+        dog.bark();
+    }
+}
+
+class Animal {
+    void eat() {
+        System.out.println("The animal eats food.");
+    }
+}
+
+class Dog extends Animal {
+    void bark() {
+        System.out.println("The dog barks.");
+    }
+}
+```
+
+**Output:**
+```text
+The animal eats food.
+The dog barks.
+```
+
+### 5. Create a `Calculator` class with two overloaded `add()` methods: one adds two numbers and the other adds three numbers. Display both sums.
+
+```java
+public class Main {
+    public static void main(String[] args) {
+        Calculator calculator = new Calculator();
+
+        System.out.println("Sum of two numbers: " + calculator.add(5, 3));
+        System.out.println("Sum of three numbers: " + calculator.add(5, 3, 2));
+    }
+}
+
+class Calculator {
+    int add(int a, int b) {
+        return a + b;
+    }
+
+    int add(int a, int b, int c) {
+        return a + b + c;
+    }
+}
+```
+
+**Output:**
+```text
+Sum of two numbers: 8
+Sum of three numbers: 10
+```
