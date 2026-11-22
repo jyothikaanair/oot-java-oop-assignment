@@ -303,3 +303,25 @@ class CounterThread extends Thread {
 ```text
 Final count: 2000
 ```
+
+# Advanced Learner Non-Programming Questions
+
+### 1. How is an abstract class different from an interface in Java? When would you use each?
+
+**Answer:** An abstract class can have constructors, instance variables, and both abstract and regular methods. An interface mainly defines behavior that implementing classes agree to provide. Use an abstract class when related classes share state or code; use an interface when different classes need to follow the same behavior contract.
+
+### 2. Explain the difference between method overloading and method overriding. How are they related to polymorphism?
+
+**Answer:** Overloading uses the same method name with different parameter lists, usually in the same class. It is compile-time polymorphism. Overriding happens when a subclass provides its own version of an inherited method with the same signature. It enables runtime polymorphism because Java chooses the method based on the actual object.
+
+### 3. What is the difference between checked and unchecked exceptions? Why might a programmer create a custom exception?
+
+**Answer:** A checked exception must be caught or declared in the method signature. An unchecked exception does not have that compile-time requirement. A custom exception lets a program report a specific error related to its own rules, such as invalid student marks.
+
+### 4. How are `ArrayList` and `HashMap` different? Why might an `Iterator` be used when removing items from a collection?
+
+**Answer:** An `ArrayList` stores an ordered sequence of items and allows access by index. A `HashMap` stores key-value pairs and looks up values by key. An `Iterator` visits collection items one at a time; using `iterator.remove()` is a safe way to remove the current item during iteration.
+
+### 5. What is a race condition in a multithreaded program, and how can `synchronized` help prevent it?
+
+**Answer:** A race condition happens when multiple threads access and change shared data at the same time, causing unpredictable results. A `synchronized` method or block lets only one thread at a time access that protected code, helping keep shared data consistent.
